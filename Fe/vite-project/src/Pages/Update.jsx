@@ -14,7 +14,6 @@ function Update() {
         const data = await response.json()
         setCategory(data)
     }
-    
   return (
     <>
     {
